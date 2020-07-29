@@ -9,23 +9,46 @@
 /* Begin PBXBuildFile section */
 		F691566024D1BA6B00CE8ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */; };
 		F691566224D1BA6B00CE8ED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */; };
-		F691566424D1BA6B00CE8ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691566324D1BA6B00CE8ED2 /* ViewController.swift */; };
 		F691566724D1BA6B00CE8ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F691566524D1BA6B00CE8ED2 /* Main.storyboard */; };
 		F691566A24D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F691566824D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld */; };
 		F691566C24D1BA7000CE8ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F691566B24D1BA7000CE8ED2 /* Assets.xcassets */; };
 		F691566F24D1BA7000CE8ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F691566D24D1BA7000CE8ED2 /* LaunchScreen.storyboard */; };
+		F691567724D1BFEF00CE8ED2 /* Quicksand in Resources */ = {isa = PBXBuildFile; fileRef = F691567624D1BFEF00CE8ED2 /* Quicksand */; };
+		F691568224D1C07D00CE8ED2 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567A24D1C04300CE8ED2 /* Quicksand-Bold.ttf */; };
+		F691568324D1C07D00CE8ED2 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567B24D1C04300CE8ED2 /* Quicksand-Medium.ttf */; };
+		F691568424D1C07D00CE8ED2 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567C24D1C04300CE8ED2 /* Quicksand-Regular.ttf */; };
+		F691568524D1C07D00CE8ED2 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567D24D1C04300CE8ED2 /* Quicksand-SemiBold.ttf */; };
+		F691568624D1C07D00CE8ED2 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567E24D1C04300CE8ED2 /* Quicksand-Light.ttf */; };
+		F691568824D1C3D500CE8ED2 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568724D1C3D500CE8ED2 /* TipsViewController.swift */; };
+		F691568A24D1C3FA00CE8ED2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */; };
+		F691568C24D1C40B00CE8ED2 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568B24D1C40B00CE8ED2 /* JournalViewController.swift */; };
+		F691568E24D1C41800CE8ED2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568D24D1C41800CE8ED2 /* HelpViewController.swift */; };
+		F691569024D1D06B00CE8ED2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568F24D1D06B00CE8ED2 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F691565C24D1BA6B00CE8ED2 /* KWK - amenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK - amenity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F691566324D1BA6B00CE8ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F691566624D1BA6B00CE8ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "KWK___amenity.xcdatamodel"; sourceTree = "<group>"; };
 		F691566B24D1BA7000CE8ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F691566E24D1BA7000CE8ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F691567024D1BA7000CE8ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F691567624D1BFEF00CE8ED2 /* Quicksand */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Quicksand; path = ../../Downloads/Quicksand; sourceTree = "<group>"; };
+		F691567A24D1C04300CE8ED2 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		F691567B24D1C04300CE8ED2 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		F691567C24D1C04300CE8ED2 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		F691567D24D1C04300CE8ED2 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		F691567E24D1C04300CE8ED2 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		F691567F24D1C04300CE8ED2 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		F691568024D1C04300CE8ED2 /* Quicksand-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		F691568124D1C04300CE8ED2 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		F691568724D1C3D500CE8ED2 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		F691568B24D1C40B00CE8ED2 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		F691568D24D1C41800CE8ED2 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		F691568F24D1D06B00CE8ED2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +65,7 @@
 		F691565324D1BA6B00CE8ED2 = {
 			isa = PBXGroup;
 			children = (
+				F691567624D1BFEF00CE8ED2 /* Quicksand */,
 				F691565E24D1BA6B00CE8ED2 /* KWK - amenity */,
 				F691565D24D1BA6B00CE8ED2 /* Products */,
 			);
@@ -59,15 +83,43 @@
 			isa = PBXGroup;
 			children = (
 				F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */,
+				F691568F24D1D06B00CE8ED2 /* AddViewController.swift */,
 				F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */,
-				F691566324D1BA6B00CE8ED2 /* ViewController.swift */,
 				F691566524D1BA6B00CE8ED2 /* Main.storyboard */,
+				F691568D24D1C41800CE8ED2 /* HelpViewController.swift */,
+				F691568B24D1C40B00CE8ED2 /* JournalViewController.swift */,
+				F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */,
+				F691568724D1C3D500CE8ED2 /* TipsViewController.swift */,
 				F691566B24D1BA7000CE8ED2 /* Assets.xcassets */,
 				F691566D24D1BA7000CE8ED2 /* LaunchScreen.storyboard */,
 				F691567024D1BA7000CE8ED2 /* Info.plist */,
 				F691566824D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld */,
+				F691567824D1C04300CE8ED2 /* Quicksand */,
 			);
 			path = "KWK - amenity";
+			sourceTree = "<group>";
+		};
+		F691567824D1C04300CE8ED2 /* Quicksand */ = {
+			isa = PBXGroup;
+			children = (
+				F691567924D1C04300CE8ED2 /* static */,
+				F691567F24D1C04300CE8ED2 /* OFL.txt */,
+				F691568024D1C04300CE8ED2 /* Quicksand-VariableFont_wght.ttf */,
+				F691568124D1C04300CE8ED2 /* README.txt */,
+			);
+			path = Quicksand;
+			sourceTree = "<group>";
+		};
+		F691567924D1C04300CE8ED2 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				F691567A24D1C04300CE8ED2 /* Quicksand-Bold.ttf */,
+				F691567B24D1C04300CE8ED2 /* Quicksand-Medium.ttf */,
+				F691567C24D1C04300CE8ED2 /* Quicksand-Regular.ttf */,
+				F691567D24D1C04300CE8ED2 /* Quicksand-SemiBold.ttf */,
+				F691567E24D1C04300CE8ED2 /* Quicksand-Light.ttf */,
+			);
+			path = static;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +180,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F691567724D1BFEF00CE8ED2 /* Quicksand in Resources */,
+				F691568524D1C07D00CE8ED2 /* Quicksand-SemiBold.ttf in Resources */,
 				F691566F24D1BA7000CE8ED2 /* LaunchScreen.storyboard in Resources */,
+				F691568624D1C07D00CE8ED2 /* Quicksand-Light.ttf in Resources */,
+				F691568424D1C07D00CE8ED2 /* Quicksand-Regular.ttf in Resources */,
 				F691566C24D1BA7000CE8ED2 /* Assets.xcassets in Resources */,
 				F691566724D1BA6B00CE8ED2 /* Main.storyboard in Resources */,
+				F691568224D1C07D00CE8ED2 /* Quicksand-Bold.ttf in Resources */,
+				F691568324D1C07D00CE8ED2 /* Quicksand-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F691566424D1BA6B00CE8ED2 /* ViewController.swift in Sources */,
+				F691568A24D1C3FA00CE8ED2 /* CalendarViewController.swift in Sources */,
+				F691568824D1C3D500CE8ED2 /* TipsViewController.swift in Sources */,
+				F691569024D1D06B00CE8ED2 /* AddViewController.swift in Sources */,
+				F691568E24D1C41800CE8ED2 /* HelpViewController.swift in Sources */,
 				F691566024D1BA6B00CE8ED2 /* AppDelegate.swift in Sources */,
 				F691566224D1BA6B00CE8ED2 /* SceneDelegate.swift in Sources */,
 				F691566A24D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld in Sources */,
+				F691568C24D1C40B00CE8ED2 /* JournalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
