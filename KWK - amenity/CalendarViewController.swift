@@ -15,9 +15,11 @@ class CalendarViewController: UIViewController, FSCalendarDelegate {
     
     @IBOutlet var calendar: FSCalendar!
 
+    @IBOutlet weak var dayJournalEntry: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        calendar.delegate = self
+        //calendar.delegate = self
         // Do any additional setup after loading the view.
     }
         
@@ -25,11 +27,20 @@ class CalendarViewController: UIViewController, FSCalendarDelegate {
         //displays the date in our window
         FSCalendarMonthPosition) {
         let formatter = DateFormatter()
-        formatter.dateFormat = "MM-dd-YYYY at h:mm a"
+        formatter.dateFormat = "MM-dd-YYYY"
         let string = formatter.string(from: date)
         print("\(string)")
-        //
+        /*
+        for entry in journal{
+            if entry.date() == string {
+                dayJournalEntry.text = entry.text
+            }
+            
+        }
+ */
     }
+    
+        
 
     /*
     // MARK: - Navigation
