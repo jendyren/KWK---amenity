@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1746DF4DC3FC6A883E2B75EA /* Pods_KWK___amenity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA1DD1476EBCAB31D0C2D29 /* Pods_KWK___amenity.framework */; };
+		F65E640024D348F20039DC5A /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E63FF24D348F20039DC5A /* JournalTableViewController.swift */; };
+		F65E640224D349490039DC5A /* journalEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E640124D349490039DC5A /* journalEntries.swift */; };
 		F691566024D1BA6B00CE8ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */; };
 		F691566224D1BA6B00CE8ED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */; };
 		F691566724D1BA6B00CE8ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F691566524D1BA6B00CE8ED2 /* Main.storyboard */; };
@@ -22,20 +24,21 @@
 		F691568624D1C07D00CE8ED2 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567E24D1C04300CE8ED2 /* Quicksand-Light.ttf */; };
 		F691568824D1C3D500CE8ED2 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568724D1C3D500CE8ED2 /* TipsViewController.swift */; };
 		F691568A24D1C3FA00CE8ED2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */; };
-		F691568C24D1C40B00CE8ED2 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568B24D1C40B00CE8ED2 /* JournalViewController.swift */; };
 		F691568E24D1C41800CE8ED2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568D24D1C41800CE8ED2 /* HelpViewController.swift */; };
 		F691569024D1D06B00CE8ED2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568F24D1D06B00CE8ED2 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58CDD97CB9EFD9ECF8667A58 /* Pods-KWK - amenity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWK - amenity.debug.xcconfig"; path = "Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity.debug.xcconfig"; sourceTree = "<group>"; };
-		9DA1DD1476EBCAB31D0C2D29 /* Pods_KWK___amenity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWK___amenity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA1DD1476EBCAB31D0C2D29 /* Pods_KWK___amenity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_KWK___amenity.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E4A41EC07A82C4DC9E2A3C /* Pods-KWK - amenity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWK - amenity.release.xcconfig"; path = "Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity.release.xcconfig"; sourceTree = "<group>"; };
+		F65E63FF24D348F20039DC5A /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		F65E640124D349490039DC5A /* journalEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalEntries.swift; sourceTree = "<group>"; };
 		F691565C24D1BA6B00CE8ED2 /* KWK - amenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK - amenity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F691566624D1BA6B00CE8ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KWK___amenity.xcdatamodel; sourceTree = "<group>"; };
+		F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "KWK___amenity.xcdatamodel"; sourceTree = "<group>"; };
 		F691566B24D1BA7000CE8ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F691566E24D1BA7000CE8ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F691567024D1BA7000CE8ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,7 +53,6 @@
 		F691568124D1C04300CE8ED2 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		F691568724D1C3D500CE8ED2 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
 		F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		F691568B24D1C40B00CE8ED2 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		F691568D24D1C41800CE8ED2 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		F691568F24D1D06B00CE8ED2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +75,6 @@
 				58CDD97CB9EFD9ECF8667A58 /* Pods-KWK - amenity.debug.xcconfig */,
 				A6E4A41EC07A82C4DC9E2A3C /* Pods-KWK - amenity.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -110,9 +111,10 @@
 				F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */,
 				F691568F24D1D06B00CE8ED2 /* AddViewController.swift */,
 				F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */,
+				F65E63FF24D348F20039DC5A /* JournalTableViewController.swift */,
 				F691566524D1BA6B00CE8ED2 /* Main.storyboard */,
+				F65E640124D349490039DC5A /* journalEntries.swift */,
 				F691568D24D1C41800CE8ED2 /* HelpViewController.swift */,
-				F691568B24D1C40B00CE8ED2 /* JournalViewController.swift */,
 				F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */,
 				F691568724D1C3D500CE8ED2 /* TipsViewController.swift */,
 				F691566B24D1BA7000CE8ED2 /* Assets.xcassets */,
@@ -268,14 +270,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F65E640224D349490039DC5A /* journalEntries.swift in Sources */,
 				F691568A24D1C3FA00CE8ED2 /* CalendarViewController.swift in Sources */,
 				F691568824D1C3D500CE8ED2 /* TipsViewController.swift in Sources */,
+				F65E640024D348F20039DC5A /* JournalTableViewController.swift in Sources */,
 				F691569024D1D06B00CE8ED2 /* AddViewController.swift in Sources */,
 				F691568E24D1C41800CE8ED2 /* HelpViewController.swift in Sources */,
 				F691566024D1BA6B00CE8ED2 /* AppDelegate.swift in Sources */,
 				F691566224D1BA6B00CE8ED2 /* SceneDelegate.swift in Sources */,
 				F691566A24D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld in Sources */,
-				F691568C24D1C40B00CE8ED2 /* JournalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +484,7 @@
 				F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */,
 			);
 			currentVersion = F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */;
-			path = KWK___amenity.xcdatamodeld;
+			path = "KWK___amenity.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
