@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1746DF4DC3FC6A883E2B75EA /* Pods_KWK___amenity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA1DD1476EBCAB31D0C2D29 /* Pods_KWK___amenity.framework */; };
 		F691566024D1BA6B00CE8ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */; };
 		F691566224D1BA6B00CE8ED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */; };
 		F691566724D1BA6B00CE8ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F691566524D1BA6B00CE8ED2 /* Main.storyboard */; };
@@ -27,11 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58CDD97CB9EFD9ECF8667A58 /* Pods-KWK - amenity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWK - amenity.debug.xcconfig"; path = "Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA1DD1476EBCAB31D0C2D29 /* Pods_KWK___amenity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWK___amenity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E4A41EC07A82C4DC9E2A3C /* Pods-KWK - amenity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWK - amenity.release.xcconfig"; path = "Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity.release.xcconfig"; sourceTree = "<group>"; };
 		F691565C24D1BA6B00CE8ED2 /* KWK - amenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK - amenity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F691566624D1BA6B00CE8ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "KWK___amenity.xcdatamodel"; sourceTree = "<group>"; };
+		F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KWK___amenity.xcdatamodel; sourceTree = "<group>"; };
 		F691566B24D1BA7000CE8ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F691566E24D1BA7000CE8ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F691567024D1BA7000CE8ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,18 +60,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1746DF4DC3FC6A883E2B75EA /* Pods_KWK___amenity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99E47DE622B618BD36B8838E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58CDD97CB9EFD9ECF8667A58 /* Pods-KWK - amenity.debug.xcconfig */,
+				A6E4A41EC07A82C4DC9E2A3C /* Pods-KWK - amenity.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAC62A482F129B5D6482EDDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1DD1476EBCAB31D0C2D29 /* Pods_KWK___amenity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F691565324D1BA6B00CE8ED2 = {
 			isa = PBXGroup;
 			children = (
 				F691567624D1BFEF00CE8ED2 /* Quicksand */,
 				F691565E24D1BA6B00CE8ED2 /* KWK - amenity */,
 				F691565D24D1BA6B00CE8ED2 /* Products */,
+				99E47DE622B618BD36B8838E /* Pods */,
+				BAC62A482F129B5D6482EDDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F691567324D1BA7000CE8ED2 /* Build configuration list for PBXNativeTarget "KWK - amenity" */;
 			buildPhases = (
+				9BD6455E4275FE2AC06F98D8 /* [CP] Check Pods Manifest.lock */,
 				F691565824D1BA6B00CE8ED2 /* Sources */,
 				F691565924D1BA6B00CE8ED2 /* Frameworks */,
 				F691565A24D1BA6B00CE8ED2 /* Resources */,
+				868BE6CCD76E1CE776D3426A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +220,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		868BE6CCD76E1CE776D3426A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD6455E4275FE2AC06F98D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KWK - amenity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F691565824D1BA6B00CE8ED2 /* Sources */ = {
@@ -348,6 +417,7 @@
 		};
 		F691567424D1BA7000CE8ED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CDD97CB9EFD9ECF8667A58 /* Pods-KWK - amenity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +435,7 @@
 		};
 		F691567524D1BA7000CE8ED2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E4A41EC07A82C4DC9E2A3C /* Pods-KWK - amenity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -410,7 +481,7 @@
 				F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */,
 			);
 			currentVersion = F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */;
-			path = "KWK___amenity.xcdatamodeld";
+			path = KWK___amenity.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

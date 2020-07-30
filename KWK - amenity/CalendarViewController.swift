@@ -6,16 +6,30 @@
 //  Copyright © 2020 Jendy Ren. All rights reserved.
 //
 
+import FSCalendar
+
 import UIKit
 
-class CalendarViewController: UIViewController {
+class CalendarViewController: UIViewController, FSCalendarDelegate {
+    
+    
+    @IBOutlet var calendar: FSCalendar!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        calendar.delegate = self
         // Do any additional setup after loading the view.
     }
-    
+        
+    func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition:
+        //displays the date in our window
+        FSCalendarMonthPosition) {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM-dd-YYYY at h:mm a"
+        let string = formatter.string(from: date)
+        print("\(string)")
+        //
+    }
 
     /*
     // MARK: - Navigation
