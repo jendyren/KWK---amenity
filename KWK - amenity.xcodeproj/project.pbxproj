@@ -26,6 +26,7 @@
 		F691568A24D1C3FA00CE8ED2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */; };
 		F691568E24D1C41800CE8ED2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568D24D1C41800CE8ED2 /* HelpViewController.swift */; };
 		F691569024D1D06B00CE8ED2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568F24D1D06B00CE8ED2 /* AddViewController.swift */; };
+		F6B3105524D44909007F3CB7 /* LogoLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B3105424D44909007F3CB7 /* LogoLaunch.storyboard */; };
 		F6DC5DC724D392DC00A77FC5 /* journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC5DC624D392DC00A77FC5 /* journal.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		F691568D24D1C41800CE8ED2 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		F691568F24D1D06B00CE8ED2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F6B3105424D44909007F3CB7 /* LogoLaunch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogoLaunch.storyboard; sourceTree = "<group>"; };
 		F6DC5DC624D392DC00A77FC5 /* journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 			children = (
 				F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */,
 				F691568F24D1D06B00CE8ED2 /* AddViewController.swift */,
+				F6B3105424D44909007F3CB7 /* LogoLaunch.storyboard */,
 				F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */,
 				F65E63FF24D348F20039DC5A /* JournalTableViewController.swift */,
 				F6DC5DC624D392DC00A77FC5 /* journal.swift */,
@@ -212,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B3105524D44909007F3CB7 /* LogoLaunch.storyboard in Resources */,
 				F691567724D1BFEF00CE8ED2 /* Quicksand in Resources */,
 				F691568524D1C07D00CE8ED2 /* Quicksand-SemiBold.ttf in Resources */,
 				F691566F24D1BA7000CE8ED2 /* LaunchScreen.storyboard in Resources */,

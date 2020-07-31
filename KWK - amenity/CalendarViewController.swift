@@ -32,12 +32,12 @@ class CalendarViewController: UIViewController, FSCalendarDelegate {
         print("\(string)")
         
         //experiment
-        let swift = journalEntry()
+        let test = journalEntry()
                //swift.setEntry(givenEntry: "Learn Swift")
                //swift.setDate(givenDate: "06-14-2002")
                test.entry = "Today, I was feeling a little anxious because of a project that I was behind on. I realized that taking a deep breath and remembering that there are many beautiful and wonderful things in my life, and that this project isn't the determinent of my success, was a really great way to recenter my priorities and find my calm."
                test.date = "07-23-2020"
-               journal.append(swift)
+               journal.append(test)
         
         for entry in journal{
             print("\(entry.date)")
