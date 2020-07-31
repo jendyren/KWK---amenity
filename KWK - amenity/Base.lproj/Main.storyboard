@@ -23,19 +23,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Calendar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KN3-9e-q74">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calendar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KN3-9e-q74">
                                 <rect key="frame" x="0.0" y="44" width="414" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="9Zc-ca-apF"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Irx-q5-ooH" customClass="FSCalendar">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Irx-q5-ooH" customClass="FSCalendar">
                                 <rect key="frame" x="0.0" y="103" width="414" height="283"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="2C0-NY-ygz"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="qEE-4H-hNZ"/>
-                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="todayColor">
                                         <color key="value" red="0.91372549020000005" green="0.73725490199999999" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -56,10 +55,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Your journal entry:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="u4m-we-Xiu">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Your journal entry:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="u4m-we-Xiu">
                                 <rect key="frame" x="38" y="446" width="338" height="224"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="224" id="ccJ-ia-ag3"/>
+                                </constraints>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -67,12 +68,16 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Irx-q5-ooH" firstAttribute="leading" secondItem="x4n-R6-Y1v" secondAttribute="leading" id="7Rq-H5-TXZ"/>
-                            <constraint firstItem="Irx-q5-ooH" firstAttribute="trailing" secondItem="x4n-R6-Y1v" secondAttribute="trailing" id="ck6-Z7-nXm"/>
-                            <constraint firstItem="Irx-q5-ooH" firstAttribute="top" secondItem="KN3-9e-q74" secondAttribute="bottom" id="e1r-Ax-iXY"/>
-                            <constraint firstItem="Irx-q5-ooH" firstAttribute="top" secondItem="KN3-9e-q74" secondAttribute="bottom" id="jIy-DU-oEt"/>
-                            <constraint firstItem="Irx-q5-ooH" firstAttribute="leading" secondItem="x4n-R6-Y1v" secondAttribute="leading" id="pSd-6v-r1j"/>
-                            <constraint firstItem="Irx-q5-ooH" firstAttribute="trailing" secondItem="x4n-R6-Y1v" secondAttribute="trailing" id="tSZ-sz-ciw"/>
+                            <constraint firstItem="KN3-9e-q74" firstAttribute="top" secondItem="x4n-R6-Y1v" secondAttribute="top" id="1TS-Am-UWa"/>
+                            <constraint firstItem="KN3-9e-q74" firstAttribute="centerX" secondItem="I37-8t-sPh" secondAttribute="centerX" id="29G-xn-yKw"/>
+                            <constraint firstItem="KN3-9e-q74" firstAttribute="trailing" secondItem="Irx-q5-ooH" secondAttribute="trailing" id="34U-3c-adM"/>
+                            <constraint firstItem="x4n-R6-Y1v" firstAttribute="bottom" secondItem="u4m-we-Xiu" secondAttribute="bottom" constant="143" id="94g-p1-oh5"/>
+                            <constraint firstItem="u4m-we-Xiu" firstAttribute="leading" secondItem="x4n-R6-Y1v" secondAttribute="leading" constant="38" id="AbG-7R-qeB"/>
+                            <constraint firstItem="KN3-9e-q74" firstAttribute="leading" secondItem="Irx-q5-ooH" secondAttribute="leading" id="BCb-ZB-YAw"/>
+                            <constraint firstItem="Irx-q5-ooH" firstAttribute="top" secondItem="KN3-9e-q74" secondAttribute="bottom" constant="37" id="NCM-XT-wmF"/>
+                            <constraint firstItem="KN3-9e-q74" firstAttribute="leading" secondItem="x4n-R6-Y1v" secondAttribute="leading" id="Nz5-by-0OT"/>
+                            <constraint firstItem="u4m-we-Xiu" firstAttribute="top" secondItem="Irx-q5-ooH" secondAttribute="bottom" constant="60" id="OpG-5V-lHy"/>
+                            <constraint firstItem="Irx-q5-ooH" firstAttribute="centerX" secondItem="u4m-we-Xiu" secondAttribute="centerX" id="yoS-db-HQz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="x4n-R6-Y1v"/>
                     </view>
@@ -330,7 +335,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="81L-ha-7P4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-984.05797101449286" y="-127.23214285714285"/>
+            <point key="canvasLocation" x="-984" y="-143"/>
         </scene>
         <!--Item-->
         <scene sceneID="zZg-XS-egi">
