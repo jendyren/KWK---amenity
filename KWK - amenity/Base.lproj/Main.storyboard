@@ -83,6 +83,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="calendar" catalog="system" id="aPg-yP-Owr"/>
                     <connections>
+                        <outlet property="calendar" destination="Irx-q5-ooH" id="bwr-5Z-EZN"/>
                         <outlet property="dayJournalEntry" destination="u4m-we-Xiu" id="60W-Fw-Nfb"/>
                     </connections>
                 </viewController>

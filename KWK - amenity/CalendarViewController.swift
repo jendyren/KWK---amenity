@@ -19,7 +19,7 @@ class CalendarViewController: UIViewController, FSCalendarDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //calendar.delegate = self
+        calendar.delegate = self
         // Do any additional setup after loading the view.
     }
         
@@ -30,14 +30,26 @@ class CalendarViewController: UIViewController, FSCalendarDelegate {
         formatter.dateFormat = "MM-dd-YYYY"
         let string = formatter.string(from: date)
         print("\(string)")
-        /*
+        
+        //experiment
+        let swift = journalEntry()
+               //swift.setEntry(givenEntry: "Learn Swift")
+               //swift.setDate(givenDate: "06-14-2002")
+               test.entry = "Today, I was feeling a little anxious because of a project that I was behind on. I realized that taking a deep breath and remembering that there are many beautiful and wonderful things in my life, and that this project isn't the determinent of my success, was a really great way to recenter my priorities and find my calm."
+               test.date = "07-23-2020"
+               journal.append(swift)
+        
         for entry in journal{
-            if entry.date() == string {
-                dayJournalEntry.text = entry.text
+            print("\(entry.date)")
+             if "\(entry.date)" == string {
+                print("match")
+                dayJournalEntry.text = entry.entry
+
+                navigationController?.popViewController(animated: true)
             }
             
         }
- */
+ 
     }
     
         

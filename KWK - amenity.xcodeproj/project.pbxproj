@@ -26,6 +26,7 @@
 		F691568A24D1C3FA00CE8ED2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */; };
 		F691568E24D1C41800CE8ED2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568D24D1C41800CE8ED2 /* HelpViewController.swift */; };
 		F691569024D1D06B00CE8ED2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568F24D1D06B00CE8ED2 /* AddViewController.swift */; };
+		F6DC5DC724D392DC00A77FC5 /* journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC5DC624D392DC00A77FC5 /* journal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		F691568D24D1C41800CE8ED2 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		F691568F24D1D06B00CE8ED2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F6DC5DC624D392DC00A77FC5 /* journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				F691568F24D1D06B00CE8ED2 /* AddViewController.swift */,
 				F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */,
 				F65E63FF24D348F20039DC5A /* JournalTableViewController.swift */,
+				F6DC5DC624D392DC00A77FC5 /* journal.swift */,
 				F691566524D1BA6B00CE8ED2 /* Main.storyboard */,
 				F65E640124D349490039DC5A /* journalEntries.swift */,
 				F691568D24D1C41800CE8ED2 /* HelpViewController.swift */,
@@ -273,6 +276,7 @@
 				F65E640224D349490039DC5A /* journalEntries.swift in Sources */,
 				F691568A24D1C3FA00CE8ED2 /* CalendarViewController.swift in Sources */,
 				F691568824D1C3D500CE8ED2 /* TipsViewController.swift in Sources */,
+				F6DC5DC724D392DC00A77FC5 /* journal.swift in Sources */,
 				F65E640024D348F20039DC5A /* JournalTableViewController.swift in Sources */,
 				F691569024D1D06B00CE8ED2 /* AddViewController.swift in Sources */,
 				F691568E24D1C41800CE8ED2 /* HelpViewController.swift in Sources */,

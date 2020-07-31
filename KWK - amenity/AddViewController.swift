@@ -32,7 +32,7 @@ class AddViewController: UIViewController {
             entry.entry = inputEntry
         }
         
-        previousVC.journal.append(entry)
+        journal.append(entry)
         previousVC.tableView.reloadData()
         
     }

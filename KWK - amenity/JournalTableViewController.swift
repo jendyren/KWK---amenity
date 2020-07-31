@@ -8,7 +8,7 @@
 import UIKit
 
 class JournalTableViewController: UITableViewController {
-    var journal : [journalEntry] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         journal = createJournalEntry()
@@ -22,6 +22,7 @@ class JournalTableViewController: UITableViewController {
         //swift.setDate(givenDate: "06-14-2002")
         swift.entry = "Learn Swift"
         swift.date = "07-23-2020"
+        journal.append(swift)
         
       let dog = journalEntry()
         //dog.setEntry(givenEntry: "walk")
@@ -29,6 +30,8 @@ class JournalTableViewController: UITableViewController {
       // important is set to false by default
         dog.entry = "walk dog"
         dog.date = "06-04-2020"
+        
+        
       return [swift, dog]
     }
    
